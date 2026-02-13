@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Software Engineer & VR Developer specializing in VR training simulations, educational games, and interactive experiences">
+  <title>Portfolio | VR Developer & Software Engineer</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  
+  <div class="header-section">
+    <div class="hero-content">
+      <h1>Vasiliki Kirtsou</h1>
+      <p class="hero-subtitle">Software Engineer &middot; VR Developer</p>
+      <p class="hero-intro">
+        Hello! This is a collection of projects I've contributed to throughout my professional career and academic years.
+      </p>
+    </div>
+  </div>
+  
+  <main>
+    <div class="main-content">
+      <section id="project-list">
+        <div id="section">
+          <h2 id="projects-title"><span id="projects-title-tag"></span><span class="projects-title-right-side">Projects</span></h2>
+        </div>
+
+        <div id="filter-tags" class="filter-tags"></div>
+        <div id="project-grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <hr class="footer-separator">
+    <p class="footer-copyright">&copy; <span id="current-year"></span> by Vasiliki Kirtsou<br>All trademarks and logos are the property of their respective owners.</p>
+    <script>
+      document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script type="module" src="./js/index.js"></script>
+</body>
+</html>
